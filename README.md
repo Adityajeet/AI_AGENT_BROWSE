@@ -39,7 +39,10 @@ Uses the ChatGoogleGenerativeAI (model: gemini-1.5-flash) for intelligent reason
 1. While performing login operations, some websites triggered CAPTCHA or bot-protection challenges.
 2. The browser_use agent was unable to solve CAPTCHA-based challenges, leading to test failures.
 
-   ![Alt text](1.png)
+![Alt text](2.png)
+
+
+![Alt text](1.png)
 
 
 
