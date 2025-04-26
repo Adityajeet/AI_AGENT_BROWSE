@@ -25,15 +25,19 @@
  6. Strict and clear instructions are used to minimize LLM errors or hallucinations.
 
 **Logic Used for Execution and Validation**
-1. Prompt Building:
+1. **Prompt Building**:
 Dynamically generates a task description based on the given URL and test steps.
-2. Agent Creation:
+2. **Agent Creation**:
 Uses the ChatGoogleGenerativeAI (model: gemini-1.5-flash) for intelligent reasoning combined with the browser_use tool for browser automation.
-3. Execution Flow:
-   3.1. Open the URL in a real browser.
-   3.2. Perform each step (clicking, entering email/password, logging in).
-   3.3. Handle field validation failures by re-executing the steps.
-   3.4. Verify if the final page matches the expected output by checking URL and visible DOM text.
+3. **Execution Flow**:
+   - Open the URL in a real browser.
+   - Perform each step (clicking, entering email/password, logging in).
+   - Handle field validation failures by re-executing the steps.
+   - Verify if the final page matches the expected output by checking URL and visible DOM text.
+
+⚡ **Challenges Faced**
+1. While performing login operations, some websites triggered CAPTCHA or bot-protection challenges.
+2. The browser_use agent was unable to solve CAPTCHA-based challenges, leading to test failures.
 
 
 
