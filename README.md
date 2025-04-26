@@ -3,7 +3,8 @@
 **Steps to Run**
 1. **Clone the Repository**:
    ```bash
-   git clone <repo_url>
-   cd <repo_name>
+   git clone https://github.com/Adityajeet/AI_AGENT_BROWSE.git
+   cd AI_AGENT_BROWSE
+2. 
 
 
