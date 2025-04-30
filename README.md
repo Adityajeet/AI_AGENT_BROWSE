@@ -5,7 +5,7 @@
    ```bash
    git clone https://github.com/Adityajeet/AI_AGENT_BROWSE.git
    cd AI_AGENT_BROWSE
-2. **Install the dependencies**:
+2. **Install the dependencies in your virtual environment**:
    ```bash
    pip install -r requirements.txt
 3. **Setup the environment:**
